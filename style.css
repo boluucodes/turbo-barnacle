@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    transition: 0.3s all ease;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+     padding: 1rem;
+}
+section .first{
+    background-color: #E3CC8F;
+}
+ section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+ }
+ section img{
+    width: 40%;
+    color: light;
+ }
+
+ .text{
+    padding: 2rem;
+ }
+
+
+ /* change the color codes and find out the dom
+ green #00c1b5
+
+orange #ff651a
+
+yellowish #ffbe00
+
+bluish #1d3fbb
+
+reddish #e30512
+
+
+ */
+ .greenish {
+  background-color: #00c1b5;
+}
+.pinky{
+  background-color: #e43c73;
+}
+.orangy {
+  background-color: #ff651a;
+}
+.grayish{
+  background-color: #E3CC8F;
+}
+.yellowish {
+  background-color: #ffbe00;
+}
+.whitish{
+  background-color: #ffffff;
+}
+.electricBlue {
+  background-color: #1d3fbb;
+}
+
+.reddish{
+  background-color: #e30512;
+}
